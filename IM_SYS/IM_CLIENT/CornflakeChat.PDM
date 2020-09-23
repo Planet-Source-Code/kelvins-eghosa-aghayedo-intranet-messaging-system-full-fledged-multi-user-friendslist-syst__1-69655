@@ -1,0 +1,128 @@
+[Root]
+Most Recent Package=IM_CLIENT
+
+
+[Package|IM_CLIENT|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\Administrator\Desktop\Q\IM_CLIENT\PACKAGE
+
+[Package|IM_CLIENT|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=Yes
+
+[Package|IM_CLIENT|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|IM_CLIENT|Files Found]
+
+[Package|IM_CLIENT|Files Released]
+
+[Package|IM_CLIENT|Missing Dependency Information]
+C:\WINDOWS\system32\plugin.ocx=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+
+[Package|IM_CLIENT|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSRDO20.DLL=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+
+[Package|IM_CLIENT|Files Added]
+
+[Package|IM_CLIENT|Files Removed]
+
+[Package|IM_CLIENT|Files In Project]
+C:\Documents and Settings\Administrator\Desktop\Q\IM_CLIENT\IM_CLIENT.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\system32\MSJET35.DLL=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\MSRD2X35.DLL=Yes
+C:\WINDOWS\system32\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\WINDOWS\system32\plugin.ocx=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSRDO20.DLL=Yes
+C:\WINDOWS\system32\RDOCURS.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|IM_CLIENT|Configure Registry Files]
+Applicable=No
+
+[Package|IM_CLIENT|Configure Remote Servers]
+Applicable=No
+
+[Package|IM_CLIENT|Install Locations]
+C:\Documents and Settings\Administrator\Desktop\Q\IM_CLIENT\IM_CLIENT.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\system32\plugin.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|IM_CLIENT|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Administrator\Desktop\Q\IM_CLIENT\IM_CLIENT.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+
+[Package|IM_CLIENT|Distribution]
+Type=single
+Size=
+Title=IM_CLIENT BY HENRIETTA OSAZUWA
+
+[Package|IM_CLIENT|IconGroups]
+Group0=Intranet Messaging SystemIntranet Messaging System - Osazuwa Dumnodi Henrietta [SCN0308563]
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|IM_CLIENT|Intranet Messaging SystemIntranet Messaging System - Osazuwa Dumnodi Henrietta [SCN0308563]]
+Icon1=IM_CLIENT.exe
+Title1=Intranet Messaging SystemIntranet Messaging System - Osazuwa Dumnodi Henrietta [SCN0308563]
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|IM_CLIENT|Package]
+PackageFolder=C:\Documents and Settings\Administrator\Desktop\Q\IM_CLIENT\PACKAGE
+ProjectFolder=C:\Documents and Settings\Administrator\Desktop\Q\IM_CLIENT
+ServerSideCab=
+File1=C:\Documents and Settings\Administrator\Desktop\Q\IM_CLIENT\PACKAGE\setup.exe
+File2=C:\Documents and Settings\Administrator\Desktop\Q\IM_CLIENT\PACKAGE\Setup.Lst
+File3=C:\Documents and Settings\Administrator\Desktop\Q\IM_CLIENT\PACKAGE\IM_CLIENT.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
